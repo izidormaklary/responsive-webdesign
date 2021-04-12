@@ -1,0 +1,58 @@
+@media only screen and (max-width: 300px) {
+    body {
+      background-color: red;
+      font-size: 16px;
+    }
+    
+    #small {
+      width: 66%;
+      display: ;
+    }
+    #medium {
+      width: 34%;
+    }
+    #large {
+      width:100%;
+    }
+
+  }
+  @media only screen and (min-width: 300px) {
+    body {
+      background-color: green;
+      font-size: 18px;
+      display: flex;
+      flex-wrap: wrap;
+    }
+    #small {
+      width: 66%;
+      
+      
+    }
+    #medium {
+      width: 34%; 
+      flex: end;
+    }
+    #large {
+      display: initial;
+      width:100%;
+      
+    }
+
+    
+  }
+  @media only screen and ( min-width: 768px) {
+    body {
+      background-color: lightblue;
+      font-size: 20px;
+      display: flex;
+    }
+    #small {
+      width: 33%;
+    }
+    #medium {
+      width: 33%;
+    }
+    #large {
+      width: 33%;
+    }
+  }
